@@ -66,6 +66,24 @@ let Djokovic = {
 
 //ACCESOS EN ARRAYS
 
-const empleados = ["Jose Perez","Pepe Jimeno", "Sasuke Uchiha", "Maria Flores"]
+const empleados = ["Jose Perez","Pepe Jimeno", "Sasuke Uchiha", "Maria Flores"];
 
-console.log(empleados[0])
+console.log(empleados[0]);
+
+const empleadosGenero = [["Maria","Pepa"],["Jose","Juan"]];
+
+console.log(empleadosGenero[1][0])
+
+//ACCESOS EN OBJETOS
+
+let cliente = {
+    nombre: "Hipermarket",
+    direccion:"LA HABAS",
+    ciudad: "MarketCity",
+    factura: 2300,
+    facturasPendientes: true,
+    transportistas: ["Jose Perez","Maria Sanchez","Juan Martinez","Papa Jimeno"],
+}
+
+console.log(cliente.transportistas[2])
+
