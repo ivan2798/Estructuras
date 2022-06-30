@@ -48,3 +48,24 @@ const topTresJugadoresTenis =[{
      pais:"Austria"
 }]
 
+//OBJETO CON ARREGLOS
+
+let Djokovic = {
+    ranking:1,
+    edad:33,
+    puntos:1223,
+    pais:"Serbia",
+    GrandSlams: 17,
+    Activo:true,
+    EstaTemporada: ["Cincinati","Rome","Dubai"],
+    estaTemporada:{
+        wins: ["Australian Open", "Cincinati", "Rome"],
+    },
+    nickName:["Nole","Djokovic"]
+}
+
+//ACCESOS EN ARRAYS
+
+const empleados = ["Jose Perez","Pepe Jimeno", "Sasuke Uchiha", "Maria Flores"]
+
+console.log(empleados[0])
